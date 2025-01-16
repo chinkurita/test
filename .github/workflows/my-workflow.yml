@@ -4,10 +4,10 @@ on: workflow_dispatch
 jobs:
   first-job:
   # defining a runner for our job
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: print greeting
       # use run commmand to run in command line
         run: echo "hello ladke"
-      - name print bye
+      - name: print bye
         run: echo " bye"
