@@ -1,0 +1,13 @@
+name: workflow-v1
+# when should be executed for an event it is like a trigger
+on: workflow_dispatch
+jobs:
+  first-job:
+  # defining a runner for our job
+    runs-on:ubuntu-latest
+    steps:
+      - name: print greeting
+      # use run commmand to run in command line
+        run: echo "hello ladke"
+      - name print bye
+        run: echo " bye"
